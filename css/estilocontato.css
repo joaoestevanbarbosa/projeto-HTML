@@ -1,0 +1,41 @@
+/*cabecalho*/
+#menu{
+    background-color:teal;
+}
+#menu ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+#menu a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+#menu li{
+    flex: 1 1 0;
+}
+#menu ul li:hover{
+    background-color:rgb(1, 46, 46);
+    transition: ease 0.4s;
+}
+#conteudo{
+    background-color: yellowgreen;
+    height: 88.5vh;
+    color: whitesmoke;
+}
+h2{
+    text-align: center;
+}
+.form{
+    padding-top: 150px;
+    text-align: center;
+}
+#rodape{
+    background-color:teal;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
